@@ -1,0 +1,139 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.nav_image{
+    width: 60px;
+    object-fit: cover;
+    margin-left: -10px;
+}
+
+.nav_section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.nav_pages{
+    display: flex;
+    gap: 70px;
+}
+
+a{
+    font-weight: 550;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.nav_pages a:hover{
+    font-weight: 600;
+}
+
+.nav_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_logo p{
+    font-size: 1.6em;
+    color: #004600;
+    font-weight: 600;
+}
+
+.nav_menu_button{
+    z-index: 200;
+    display: none;
+}
+
+.nav_buttons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_buttons svg{
+    padding: 10px;
+    border: 1px solid #b4b4b4;
+    transition: ease-in-out 0.5s;
+    border-radius: 500px;
+}
+
+.nav_buttons svg:hover{
+    background-color: #f8f8f8;
+}
+
+.nav_buttons2{
+    display: flex;
+    gap: 20px;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    display: none;
+}
+
+.menu_content{
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.144);
+    z-index: 1;
+    background-color: white;
+}
+
+
+.menu_con{
+    margin-left: 40px ;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.menu_con .div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hide{
+    display: none;
+}
+
+
+.contact{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1048px){
+    .nav_menu_button{
+        display: flex;
+    }
+    .menu{
+        display: flex;
+    }
+    .nav_pages{
+        display: none;
+    }
+    .nav_buttons{
+        display: none;
+    }
+}

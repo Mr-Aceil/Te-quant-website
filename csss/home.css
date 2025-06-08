@@ -285,10 +285,7 @@ p{
     }
 
     .Courses{
-        border: none;
-        border-radius: none;
         flex-direction: column;
-        padding: 20px 0;
         margin: 0;
     }
 }

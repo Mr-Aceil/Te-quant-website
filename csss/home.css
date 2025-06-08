@@ -409,6 +409,19 @@ p{
     .why_grid{
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
+
+    .section1_foot_text svg{
+        width: 20px;
+        height: 20px;
+    }
+
+    .pthin{
+        font-size: 1em;
+    }
+
+    .section_inner{
+        gap: 40px;
+    }
 }
 
 @media (max-width: 350px){

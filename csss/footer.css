@@ -75,6 +75,7 @@ footer{
     .foot_logo{
         flex-direction: column;
         align-items: start;
+        gap: 20px;
     }
 
     .foot_content ul li{

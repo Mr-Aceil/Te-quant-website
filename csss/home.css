@@ -241,8 +241,8 @@ p{
 }
 
 .list_image{
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
     border-radius: 500px;
     object-fit: cover;
     object-position: top;
@@ -336,6 +336,7 @@ p{
 
     .list_image{
         display: flex;
+
     }
 
     .memberPosition{

@@ -331,7 +331,7 @@ p{
     }
 
     .lists:hover{
-        border: unset;
+        border: 1px solid rgb(230, 230, 230);
     }
 
     .list_image{
